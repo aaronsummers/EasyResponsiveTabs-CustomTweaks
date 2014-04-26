@@ -1,0 +1,191 @@
+﻿ul.tabs-list {
+	margin: 0px;
+	padding: 0px;
+	background: #323333;
+}
+
+.tabs-list li {
+	font-family: "open_sansbold", "Helvetica", Arial, sans-serif;
+	font-size: 0.825em;
+	display: inline-block;
+	padding: 13px 15px;
+	margin: 0;
+	list-style: none;
+	cursor: pointer;
+	float: left;
+	color: #fff;
+	width: 25%;
+	text-align: center;
+}
+
+.tabs-container {
+	padding: 0px;
+	clear: left;
+}
+
+h2.accordion {
+	cursor: pointer;
+	padding: 5px;
+	display: none;
+}
+
+.tab-content {
+	display: none;
+}
+
+.tab-active {
+	border-bottom: none;
+	margin-bottom: -1px !important;
+	padding: 12px 14px 14px 14px !important;
+}
+
+.tab-active {
+	border-bottom: none;
+	background-color: rgba( 0, 0, 0, .2);
+}
+
+.content-active, .accordion-active {
+	display: block;
+}
+
+.tab-content {
+	position: relative;
+}
+
+h2.accordion {
+	font-size: 13px;
+	border-bottom: 1px solid #fff;
+	margin: 0px;
+	padding: 10px 15px;
+	text-transform: uppercase;
+}
+
+h2.tab-active {
+	border-bottom: 0px solid #fff !important;
+	margin-bottom: 0px !important;
+	padding: 10px 15px !important;
+}
+
+h2.tab-title:last-child {
+	border-bottom: 12px solid #fff !important;
+	background: blue;
+}
+/*-----------Vertical tabs-----------*/
+.vtabs ul.tabs-list {
+	float: left;
+	width: 30%;
+}
+h2[role=tab] {
+	color: #fff !important;
+}
+.vtabs .tabs-list li {
+	display: block;
+	padding: 15px 15px !important;
+	margin: 0;
+	cursor: pointer;
+	float: none;
+}
+
+.vtabs .tabs-container {
+	padding: 0px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	float: left;
+	width: 68%;
+	min-height: 250px;
+	border-radius: 4px;
+	clear: none;
+}
+
+.vtabs .tab-content {
+	border: none;
+}
+
+.vtabs li.tab-active {
+	border: 1px solid #fff;
+	border-right: none;
+	background-color: #fff;
+	position: relative;
+	z-index: 1;
+	margin-right: -1px !important;
+	padding: 14px 15px 15px 14px !important;
+}
+
+.arrow {
+	width: 0;
+	height: 0;
+	float: right;
+	margin-top: 3px;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 12px solid #fff;
+}
+
+h2.tab-active span.arrow {
+	border: none;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 12px solid #E77E24;
+}
+
+/*-----------Accordion styles-----------*/
+h2.tab-active {
+	background: #444 !important;
+}
+.easy-accordion  h2.accordion {
+		display: block;
+}
+.easy-accordion .tab-content {
+	border: 1px solid #fff;
+}
+
+.easy-accordion .tab-content:last-child {
+	border-bottom: 1px solid #fff !important;
+}
+
+.jfit {
+	width: 100%;
+	margin: 0px;
+}
+
+.tab-content-active {
+	display: block;
+}
+
+h2.accordion:first-child {
+	border-top: 1px solid #fff !important;
+}
+
+/*Here your can change the breakpoint to set the accordion, when screen resolution changed*/
+@media only screen and (max-width: 719px) {
+	.product-tabs {
+		margin-top: 0 !important;
+	}
+	ul.tabs-list {
+		display: none;
+	}
+	.tabs-container h2.accordion {
+		background-color: #fff;
+	}
+	h2.accordion {
+		display: block;
+	}
+
+	.vtabs .tab-content {
+		border: 1px solid #C1C1C1;
+	}
+
+	.vtabs .tabs-container {
+		border: none;
+		float: none;
+		width: 100%;
+		min-height: initial;
+		clear: none;
+	}
+	.accordion-closed {
+		display:none !important;
+	}
+	.vtabs .tab-content:last-child {
+		border-bottom: 1px solid #fff !important;
+	}
+}
