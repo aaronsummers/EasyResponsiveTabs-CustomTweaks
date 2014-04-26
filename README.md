@@ -11,7 +11,7 @@ Opening a tab from another link, other than a tab
 
  - I'm using a data-attribute to select the required tab
 
- - "<a class="button" data-open-tab="0" href="#product-tabs">OPEN TAB 1</a>"
+ - "&lt;a class="button" data-open-tab="0" href="#product-tabs">OPEN TAB 1&lt;/a>"
 
 
 
