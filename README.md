@@ -30,7 +30,7 @@ EasyResponsiveTabs-CustomTweaks...
                     
                     <li id="second-tab" class="demo-tab">SECOND TAB <div class="active-arrow"></div></li>
                     
-                    <li id="third tab">THIRD TAB <div class="active-arrow"></div></li>
+                    <li id="third-tab">THIRD TAB <div class="active-arrow"></div></li>
                     
                     <li id="finally-the-fourth-tab">FOURTH TAB <div class="active-arrow"></div></li>
                     
