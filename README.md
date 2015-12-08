@@ -25,10 +25,15 @@ EasyResponsiveTabs-CustomTweaks...
         <div id="product-tabs">
             
                 <ul class="tabs-list clearfix">
+                
                     <li id="first-tab">FIRST TAB <div class="active-arrow"></div></li>
+                    
                     <li id="second-tab" class="demo-tab">SECOND TAB <div class="active-arrow"></div></li>
+                    
                     <li id="third tab">THIRD TAB <div class="active-arrow"></div></li>
+                    
                     <li id="finally-the-fourth-tab">FOURTH TAB <div class="active-arrow"></div></li>
+                    
                 </ul><!-- /.tabs-list -->
                 
             <div class="tabs-container">
