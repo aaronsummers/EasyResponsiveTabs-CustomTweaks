@@ -11,8 +11,8 @@ EasyResponsiveTabs-CustomTweaks...
 ----------------------------------------------------
  - I'm using a data-attribute to select the required tab
  - `<a class="button" data-open-tab="0" href="#product-tabs">OPEN TAB 1</a>`
- -- add and change the data-open-tab="" to the tab number starting at 0.
- -- add the id for the tabs container to link to the tabs.
+ - add and change the data-open-tab="" to the tab number starting at 0.
+ - add the id for the tabs container to link to the tabs.
 
 2. Using a custom hash for each tab in the url
 ---------------------------------------------
