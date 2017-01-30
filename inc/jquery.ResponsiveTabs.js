@@ -9,7 +9,8 @@
 				width: 'auto',
 				fit: true,
 				closed: false,
-				activate: function(){}
+				activate: function(){},
+				useDefaultHashInUrl:false
 			}
 			//Variables
 			var options = $.extend(defaults, options);			
@@ -160,8 +161,10 @@
 							else {
 								newHash = '#'+newHash;
 							}
-							
-							history.replaceState(null,null,newHash);
+							//Original Script
+							//history.replaceState(null,null,newHash);
+							if(!options.useDefaultHashInUrl)
+							history.replaceState(null,null,newHash)
 						}
 					});
 					
